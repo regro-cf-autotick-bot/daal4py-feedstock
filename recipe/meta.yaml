@@ -1,4 +1,4 @@
-{% set version = "2024.7.0" %}
+{% set version = "2025.2.0" %}
 {% set buildnumber = 0 %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/intel/scikit-learn-intelex/archive/{{ version }}.tar.gz
-  sha256: 76371955787a30fd7ef8563a8083555cdc74841711a393b0a9194fb326c28acd
+  sha256: 4893ff45797df47d02ee24b1d097d74782d56bf60aab044ad53db3aeed8134a8
 build:
   skip: true  # [not (linux64 or win)]
   number: {{ buildnumber }}
